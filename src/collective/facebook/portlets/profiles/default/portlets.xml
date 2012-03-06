@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <portlets
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-    i18n:domain="collective.facebook.wall">
+    i18n:domain="collective.facebook.portlets">
 
  <portlet title="Facebook wall Portlet"
     addview="collective.facebook.portlets.FacebookWallPortlet"
