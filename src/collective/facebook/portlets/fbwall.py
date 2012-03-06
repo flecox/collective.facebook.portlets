@@ -17,9 +17,9 @@ from plone.registry.interfaces import IRegistry
 from zope.schema.interfaces import IContextSourceBinder
 from collective.prettydate.interfaces import IPrettyDate
 
-from collective.facebook.wall import _
-from collective.facebook.wall.config import GRAPH_URL
-from collective.facebook.wall.config import PROJECTNAME
+from collective.facebook.portlets import _
+from collective.facebook.portlets.config import GRAPH_URL
+from collective.facebook.portlets.config import PROJECTNAME
 
 from zope.security import checkPermission
 

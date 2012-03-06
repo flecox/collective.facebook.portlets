@@ -3,6 +3,7 @@
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     i18n_domain="collective.facebook.portlets">
 
@@ -10,8 +11,6 @@
 
     <includeDependencies package="." />
     <i18n:registerTranslations directory="locales" />
-
-    <include package=".portlet" />
 
     <genericsetup:registerProfile
        name="default"
@@ -38,7 +37,7 @@
         />
 
      <plone:portlet
-         name="collective.facebook.wall.FacebookWallPortlet"
+         name="collective.facebook.portlets.FacebookWallPortlet"
          interface=".fbwall.IFacebookWallPortlet"
          assignment=".fbwall.Assignment"
          edit_permission="cmf.ManagePortal"

@@ -1,6 +1,6 @@
 import unittest2 as unittest
 
-from collective.facebook.wall.testing import INTEGRATION_TESTING
+from collective.facebook.portlets.testing import INTEGRATION_TESTING
 
 from zope.component import getUtility, getMultiAdapter
 
