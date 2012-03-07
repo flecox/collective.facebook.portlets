@@ -29,55 +29,57 @@
 
                         <div tal:condition="type_link" class="statusUpdate link">
 
-                            <span class="date_and_time" tal:content="loc_date" />
-
                             <div class="result_content">
                                 <a href="#"
                                 tal:attributes="href link_url"
                                 tal:content="link_name">
                                 </a>
                             </div>
-                            <p class="like">
-                                <span i18n:translate=""
-                                    i18n:domain="collective.facebook.portlets">
+                            <div class="status-info">
+                              <span class="date_and_time" tal:content="loc_date" />
+                              <span class="like">
+                                  <span i18n:translate=""
+                                      i18n:domain="collective.facebook.portlets">
 
-                                <span tal:content="likes_count"
-                                    i18n:name="likes_count"/> people like this.
-                                </span>
-                            </p>
-                            <p class="comments">
-                                <span i18n:translate=""
-                                    i18n:domain="collective.facebook.portlets">
+                                  <span tal:content="likes_count"
+                                      i18n:name="likes_count"/> people like this.
+                                  </span>
+                              </span>
+                              <span class="comments">
+                                  <span i18n:translate=""
+                                      i18n:domain="collective.facebook.portlets">
 
-                                <span tal:content="comments_count"
-                                    i18n:name="comments"/> comments.
-                                </span>
-                            </p>
+                                  <span tal:content="comments_count"
+                                      i18n:name="comments"/> comments.
+                                  </span>
+                              </span>
+                          </div>
                         </div>
 
                         <div tal:condition="type_status" class="statusUpdate status">
 
-                            <span class="date_and_time" tal:content="loc_date" />
-
                             <div class="result_content">
                                 <p tal:content="status_msg"></p>
                             </div>
-                            <p class="like">
-                                <span i18n:translate=""
-                                    i18n:domain="collective.facebook.portlets">
+                            <div class="status-info">
+                                <span class="date_and_time" tal:content="loc_date" />
+                              <span class="like">
+                                  <span i18n:translate=""
+                                      i18n:domain="collective.facebook.portlets">
 
-                                <span tal:content="likes_count"
-                                    i18n:name="likes_count"/> people like this.
-                                </span>
-                            </p>
-                            <p class="comments">
-                                <span i18n:translate=""
-                                    i18n:domain="collective.facebook.portlets">
+                                  <span tal:content="likes_count"
+                                      i18n:name="likes_count"/> people like this.
+                                  </span>
+                              </span>
+                              <span class="comments">
+                                  <span i18n:translate=""
+                                      i18n:domain="collective.facebook.portlets">
 
-                                <span tal:content="comments_count"
-                                    i18n:name="comments"/> comments.
-                                </span>
-                            </p>
+                                  <span tal:content="comments_count"
+                                      i18n:name="comments"/> comments.
+                                  </span>
+                              </span>
+                          </div>
                         </div>
                     </tal:block>
                 </div>

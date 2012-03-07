@@ -1,0 +1,58 @@
+dl.portlet.facebookWallPortlet {
+    border: 1px solid #C6CEDD;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    line-height: 1.28;
+}
+
+.facebookWallPortlet .portletHeader {
+    background-color: #EDEFF4;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    padding: 10px 10px;
+}
+
+.facebookWallPortlet .status .status-info {
+    margin-top: -8px;
+}
+
+dl.portlet.facebookWallPortlet .link a {
+    color: #3B5998;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.facebookWallPortlet .link .status-info {
+    margin-top: 3px;
+}
+
+.facebookWallPortlet .status-info {
+    color: #6D84B4;
+    font-size: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.facebookWallPortlet .status-info .like {
+    border-right: 1px solid #C6CEDD;
+    border-left: 1px solid #C6CEDD;
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+
+dl.portlet.facebookWallPortlet dd.portletFooter {
+    border-top: 1px solid #C6CEDD;
+    padding: 5px    10px;
+}
+
+dl.portlet.facebookWallPortlet .portletFooter a {
+    color: #6D84B4;
+    border-bottom: 0;
+    font-size: 10px;
+}
+
+dl.portlet.facebookWallPortlet .portletFooter a:hover {
+    color: #3B5998;
+}
